@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: Appli
+    runtime: node
+    repo: https://github.com/YacineMeki/blue_print
+    region: frankfurt
+    branch: main
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
